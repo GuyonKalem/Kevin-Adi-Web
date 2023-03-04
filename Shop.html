@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="logo.png" rel="shortcut icon">
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom6.css" />
+    <!-- coba coba side -->
+    <meta charset="UTF-8">
+    <!--<title> Responsive Sidebar Menu  | CodingLab </title>-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #1B1B1B;
+        }
+    </style>
+    <title>Live</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <div class="logo_name"><img src="logo.png" width="38" height="38" alt=""
+                    style="margin-top: 4px;margin-right: 8px;">Artistic Soul</div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <a href="Profile.html">
+                    <i class='bx bx-user'></i>
+                    <span class="links_name">Profile</span>
+                </a>
+                <span class="tooltip">Profile</span>
+            </li>
+            <li>
+                <a href="Home.html">
+                    <i class='bx bx-home-alt'></i>
+                    <span class="links_name">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <a href="Explore.html">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">Explore</span>
+                </a>
+                <span class="tooltip">Explore</span>
+            </li>
+            <li>
+                <a href="Live.html">
+                    <i class='bx bx-chat'></i>
+                    <span class="links_name">Live</span>
+                </a>
+                <span class="tooltip">Live</span>
+            </li>
+            <li>
+                <a href="Shop.html">
+                    <i class='bx bx-cart-alt'></i>
+                    <span class="links_name">Shopping</span>
+                </a>
+                <span class="tooltip">Shopping</span>
+            </li>
+
+        </ul>
+    </div>
+
+    <script>
+        let sidebar = document.querySelector(".sidebar");
+        let closeBtn = document.querySelector("#btn");
+
+
+        closeBtn.addEventListener("click", () => {
+            sidebar.classList.toggle("open");
+            menuBtnChange();//calling the function(optional)
+        });
+
+        function menuBtnChange() {
+            if (sidebar.classList.contains("open")) {
+                closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+            } else {
+                closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");//replacing the iocns class
+            }
+        }
+    </script>
+    <!-- Start News -->
+    <div class="home">
+        <div class="livebox">
+            <div id="custom-title">Live</div>
+            <hr>
+            <div class="hlvideo"> <video width="520" height="340" controls>
+                    <source src="hlvideo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h2>Namatin NCS 😱😱😱 jadi bocah kematian 🥶🥶</h2>
+                <h4>Widih Bisuduren</h4>
+                <h3> Viewer 1.000.000.000.000</h3>
+            </div>
+            <hr>
+        </div>
+        <div class="custom-gallery" hidden>
+            <div class="live-card">
+                <img class="hm" src="bg1.jpg" alt="">
+                <br>
+                <h2>Namatin NCS 😱😱😱 jadi bocah kematian 🥶🥶</h2>
+                <h4>Widih Bisuduren</h4>
+                <h3> Viewer 1.000.000.000.000</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="bg1.jpg" alt="">
+                <br>
+                <h2>Namatin NCS 😱😱😱 jadi bocah kematian 🥶🥶</h2>
+                <h4>Widih Bisuduren</h4>
+                <h3> Viewer 1.000.000.000.000</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="bg1.jpg" alt="">
+                <br>
+                <h2>Namatin NCS 😱😱😱 jadi bocah kematian 🥶🥶</h2>
+                <h4>Widih Bisuduren</h4>
+                <h3> Viewer 1.000.000.000.000</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="bg1.jpg" alt="">
+                <br>
+                <h2>Namatin NCS 😱😱😱 jadi bocah kematian 🥶🥶</h2>
+                <h4>Widih Bisuduren</h4>
+                <h3> Viewer 1.000.000.000.000</h3>
+            </div>
+
+        </div>
+        <div class="search-bar">
+            <div style="margin-left: 145px;">
+                <div id="hm" class="search">
+                    <form action="#">
+                        <input type="text" placeholder=" Search ...." name="search">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="liverecommen">
+            <div class="live-card">
+                <img class="hm" src="bg1.jpg" alt="">
+                <br>
+                <h2>Namatin NCS 😱😱😱 jadi bocah kematian 🥶🥶</h2>
+                <h4>Widih Bisuduren</h4>
+                <h3> Viewer 1.000.000.000.000</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="bg1.jpg" alt="">
+                <br>
+                <h2>Namatin NCS 😱😱😱 jadi bocah kematian 🥶🥶</h2>
+                <h4>Widih Bisuduren</h4>
+                <h3> Viewer 1.000.000.000.000</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="bg1.jpg" alt="">
+                <br>
+                <h2>Namatin NCS 😱😱😱 jadi bocah kematian 🥶🥶</h2>
+                <h4>Widih Bisuduren</h4>
+                <h3> Viewer 1.000.000.000.000</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="bg1.jpg" alt="">
+                <br>
+                <h2>Namatin NCS 😱😱😱 jadi bocah kematian 🥶🥶</h2>
+                <h4>Widih Bisuduren</h4>
+                <h3> Viewer 1.000.000.000.000</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="bg1.jpg" alt="">
+                <br>
+                <h2>Namatin NCS 😱😱😱 jadi bocah kematian 🥶🥶</h2>
+                <h4>Widih Bisuduren</h4>
+                <h3> Viewer 1.000.000.000.000</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="bg1.jpg" alt="">
+                <br>
+                <h2>Namatin NCS 😱😱😱 jadi bocah kematian 🥶🥶</h2>
+                <h4>Widih Bisuduren</h4>
+                <h3> Viewer 1.000.000.000.000</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="bg1.jpg" alt="">
+                <br>
+                <h2>Namatin NCS 😱😱😱 jadi bocah kematian 🥶🥶</h2>
+                <h4>Widih Bisuduren</h4>
+                <h3> Viewer 1.000.000.000.000</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="bg1.jpg" alt="">
+                <br>
+                <h2>Namatin NCS 😱😱😱 jadi bocah kematian 🥶🥶</h2>
+                <h4>Widih Bisuduren</h4>
+                <h3> Viewer 1.000.000.000.000</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="recommended">
+        <h1>Recommended channel</h1>
+        <br>
+        <h4><img class="pp" src="bob_ross.png" alt="pp">Widih Bisuduren</h4>
+        <h5> Playing Cooking mama</h5>
+        <h3> Viewer 2.000</h3>
+        <br>
+        <h4><img class="pp" src="bob_ross.png" alt="pp">Widih Bisuduren</h4>
+        <h5> Playing Cooking mama</h5>
+        <h3> Viewer 2.000</h3>
+        <br>
+        <h4><img class="pp" src="bob_ross.png" alt="pp">Widih Bisuduren</h4>
+        <h5> Playing Cooking mama</h5>
+        <h3> Viewer 2.000</h3>
+        <br>
+        <h4><img class="pp" src="bob_ross.png" alt="pp">Widih Bisuduren</h4>
+        <h5> Playing Cooking mama</h5>
+        <h3> Viewer 2.000</h3>
+        <br>
+        <h4><img class="pp" src="bob_ross.png" alt="pp">Widih Bisuduren</h4>
+        <h5> Playing Cooking mama</h5>
+        <h3> Viewer 2.000</h3>
+        <br>
+        <h4><img class="pp" src="bob_ross.png" alt="pp">Widih Bisuduren</h4>
+        <h5> Playing Cooking mama</h5>
+        <h3> Viewer 2.000</h3>
+        <br>
+        <h4><img class="pp" src="bob_ross.png" alt="pp">Widih Bisuduren</h4>
+        <h5> Playing Cooking mama</h5>
+        <h3> Viewer 2.000</h3>
+        <br>
+        <h4><img class="pp" src="bob_ross.png" alt="pp">Widih Bisuduren</h4>
+        <h5> Playing Cooking mama</h5>
+        <h3> Viewer 2.000</h3>
+        <br>
+        <h4><img class="pp" src="bob_ross.png" alt="pp">Widih Bisuduren</h4>
+        <h5> Playing Cooking mama</h5>
+        <h3> Viewer 2.000</h3>
+        <br>
+        <h4><img class="pp" src="bob_ross.png" alt="pp">Widih Bisuduren</h4>
+        <h5> Playing Cooking mama</h5>
+        <h3> Viewer 2.000</h3>
+        <br>
+        <h4><img class="pp" src="bob_ross.png" alt="pp">Widih Bisuduren</h4>
+        <h5> Playing Cooking mama</h5>
+        <h3> Viewer 2.000</h3>
+        <br>
+
+    </div>
+
+
+
+    <!-- End News -->
+    <script src="jquery/jquery-migrate-1.4.1.min.js"></script>
+    <script src="popper/popper.min.js"></script>
+    <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

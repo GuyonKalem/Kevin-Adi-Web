@@ -1,0 +1,36 @@
+<!--23/02/2023 Kevin Adi Santoso 12 IPA 1 -->
+<!--          Pembelajaran Binus          -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar JS DOM</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <p class="demoitem"></p>
+    <p class="demoitem"></p>
+    <button id="tombol">Click Me</button>
+    <!-- Variable -->
+    <script>
+        /* Mencari elemen dengan ID'demo'*/
+        document.getElementById("demo").innerHTML = "Hello";
+        /*Variable demoitem mengandung elemen dalam nama class demoitem*/
+        demoitem = document.getElementsByClassName('demoitem');
+        /*  */
+        demoitem[0].innerHTML = "Test 0";
+        demoitem[1].innerHTML = "Test 1";
+        demoitem[1].style.backgroundColor = "red";
+        /*muncul pop up di website saat di klik*/
+        tombol = document.getElementById("tombol")
+        tombol.onclick = function (e) {
+            alert("Yey alerttt");
+        }
+    </script>
+</body>
+
+</html>

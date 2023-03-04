@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,300&family=Noto+Serif&family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet');
+
+.home {
+  float: left;
+}
+
+.custom-welcome-box {
+  margin-top: 92px;
+  margin-left: 150px;
+  width: 580px;
+  padding: 0px;
+}
+
+#logoname {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.custom-banner {
+  width: 100%;
+  height: calc(100vh - 68.76px);
+}
+
+.custom-news {
+  margin-top: 45px;
+  margin-left: 150px;
+}
+
+#custom-title {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 900;
+  font-size: 28px;
+  color: #F3F3F3;
+}
+
+#custom-title2 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 900;
+  font-size: 64px;
+  color: rgb(17, 0, 255);
+}
+
+#custom-userfont {
+  font-family: 'Noto Serif', serif !important;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5%;
+  color: #F3F3F3;
+}
+
+#custom-descnomar {
+  font-family: 'Noto Serif', serif !important;
+  font-size: 16px;
+  color: #F3F3F3;
+}
+
+#custom-desc {
+  font-family: 'Noto Serif', serif !important;
+  font-size: 16px;
+  margin-left: 6.5%;
+  margin-right: 6.5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #F3F3F3;
+}
+
+#custom-selecteddesc {
+  font-family: 'Noto Serif', serif !important;
+  font-size: 16px;
+  margin-left: 6.5%;
+  margin-right: 6.5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: rgb(17, 0, 255);
+}
+
+#custom-descselec {
+  font-family: 'Noto Serif', serif !important;
+  font-size: 16px;
+  margin: 5%;
+  color: #F3F3F3;
+}
+
+#custom-margin {
+  margin-left: 135px;
+}
+
+.custom-gallery {
+  overflow-y: scroll;
+  float: left;
+  position: relative;
+  color: #F3F3F3;
+  width: 800px;
+  height: 110vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 145px;
+}
+
+.custom-gallery::-webkit-scrollbar {
+  display: none;
+}
+
+
+#masked {
+  object-fit: cover;
+  opacity: 65%;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 180px;
+  height: 180px;
+}
+
+.custom-selection {
+  display: flex;
+  margin-left: 125px;
+}
+
+.custom-focus {
+  float: left;
+  background-color: rgb(13, 13, 13);
+  width: 528px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.custom-like-share {
+  display: flex;
+  width: 528px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 38px;
+  padding-left: 38px;
+}
+
+#custom-focusbox {
+  align-items: center;
+  width: 380px;
+  height: auto;
+  -webkit-mask-box-image: url(box.jpg) 25;
+}
+
+.hm {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+h5 {
+  margin-left: 20px;
+  padding-bottom: 5px;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 200;
+  font-size: 18px;
+  color: #F3F3F3;
+}
+
+.custom-commentbox {
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  width: auto;
+  height: 180px;
+  overflow-y: scroll;
+  background-color: rgb(17, 0, 255);
+}
+
+.custom-commentbox::-webkit-scrollbar {
+  display: none;
+}
+
+.eek:active {
+  filter: brightness(2);
+  transition: 0.8ms;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 700;
+  font-size: 20px;
+  color: #F3F3F3;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 900;
+  font-size: 32px;
+  color: #F3F3F3;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 200;
+  font-size: 16px;
+  color: #F3F3F3;
+  margin-left: 58px;
+}
+
+.pp {
+  border-radius: 10px;
+  margin-right: 24px;
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+}
+
+.verified {
+  margin-left: 18px;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.button_float {
+  float: right;
+  width: 160px;
+
+}
+
+#m1 {
+  margin-top: 5px;
+}
+
+.button2 {
+  border-radius: 6px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 8px;
+  padding-bottom: 0px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  color: #F3F3F3;
+  background-color: #0d0d00;
+  border: 6px solid rgb(17, 0, 255);
+}
+
+#flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+h6 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 200;
+  font-size: 16px;
+  color: #F3F3F3;
+}
+
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100px;
+  background: #0d0d0d;
+  padding: 14px 14px;
+  z-index: 99;
+  transition: all 0.5s ease;
+}
+
+.sidebar.open {
+  width: 250px;
+}
+
+.sidebar .logo-details {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.sidebar .logo-details .icon {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.sidebar .logo-details .logo_name {
+  color: #F3F3F3;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.sidebar.open .logo-details .icon,
+.sidebar.open .logo-details .logo_name {
+  opacity: 1;
+}
+
+.sidebar .logo-details #btn {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 22px;
+  transition: all 0.4s ease;
+  font-size: 23px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.sidebar.open .logo-details #btn {
+  text-align: right;
+}
+
+.sidebar i {
+  color: #F3F3F3;
+  height: 60px;
+  min-width: 50px;
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.sidebar .nav-list {
+  margin-top: 20px;
+  height: 100%;
+}
+
+.sidebar li {
+  position: relative;
+  margin: 12px;
+  list-style: none;
+}
+
+.sidebar li .tooltip {
+  color: #F3F3F3;
+  position: absolute;
+  top: -20px;
+  left: calc(100% + 15px);
+  z-index: 3;
+  background: rgb(17, 0, 255);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: 0s;
+}
+
+.sidebar li:hover .tooltip {
+  opacity: 1;
+  pointer-events: auto;
+  transition: all 0.4s ease;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sidebar.open li .tooltip {
+  display: none;
+}
+
+.sidebar.open input {
+  padding: 0 20px 0 50px;
+  width: 100%;
+}
+
+.sidebar .bx-search {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 22px;
+  background: #1d1b31;
+  color: #F3F3F3;
+}
+
+.sidebar.open .bx-search:hover {
+  background: #1d1b31;
+  color: rgb(17, 0, 255);
+}
+
+.sidebar .bx-search:hover {
+  background: rgb(17, 0, 255);
+  color: #0d0d00;
+}
+
+.sidebar li a {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  background: #0d0d00;
+}
+
+.sidebar li a:hover {
+  background: rgb(17, 0, 255);
+}
+
+.sidebar li a .links_name {
+  color: #F3F3F3;
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s;
+}
+
+.sidebar.open li a .links_name {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.sidebar li a:hover .links_name,
+.sidebar li a:hover i {
+  transition: all 0.5s ease;
+  color: #F3F3F3;
+}
+
+.sidebar li i {
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+.sidebar li img {
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.home-section {
+  position: relative;
+  background: #F3F3F3;
+  min-height: 100vh;
+  top: 0;
+  left: 78px;
+  width: calc(100% - 78px);
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.sidebar.open~.home-section {
+  left: 250px;
+  width: calc(100% - 250px);
+}
+
+.home-section .text {
+  display: inline-block;
+  color: #F3F3F3;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 18px
+}
+
+@media (max-width: 420px) {
+  .sidebar li .tooltip {
+    display: none;
+  }
+}

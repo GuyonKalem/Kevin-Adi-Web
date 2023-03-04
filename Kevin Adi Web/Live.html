@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="logo.png" rel="shortcut icon">
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom5.css" />
+    <!-- coba coba side -->
+    <meta charset="UTF-8">
+    <!--<title> Responsive Sidebar Menu  | CodingLab </title>-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #1B1B1B;
+        }
+    </style>
+    <title>Live</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <div class="logo_name"><img src="logo.png" width="38" height="38" alt=""
+                    style="margin-top: 4px;margin-right: 8px;">Artistic Soul</div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <a href="Profile.html">
+                    <i class='bx bx-user'></i>
+                    <span class="links_name">Profile</span>
+                </a>
+                <span class="tooltip">Profile</span>
+            </li>
+            <li>
+                <a href="Home.html">
+                    <i class='bx bx-home-alt'></i>
+                    <span class="links_name">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <a href="Explore.html">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">Explore</span>
+                </a>
+                <span class="tooltip">Explore</span>
+            </li>
+            <li>
+                <a href="Live.html">
+                    <i class='bx bx-chat'></i>
+                    <span class="links_name">Live</span>
+                </a>
+                <span class="tooltip">Live</span>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        let sidebar = document.querySelector(".sidebar");
+        let closeBtn = document.querySelector("#btn");
+
+
+        closeBtn.addEventListener("click", () => {
+            sidebar.classList.toggle("open");
+            menuBtnChange();//calling the function(optional)
+        });
+
+        function menuBtnChange() {
+            if (sidebar.classList.contains("open")) {
+                closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+            } else {
+                closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");//replacing the iocns class
+            }
+        }
+    </script>
+    <!-- Start News -->
+    <div class="home">
+        <div class="livebox">
+            <div id="custom-title">Live</div>
+            <hr>
+            <div class="hlvideo"> <video width="520" height="340" controls>
+                    <source src="hlvideo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h2>Namatin NCS 😱😱😱 jadi bocah kematian 🥶🥶</h2>
+                <h4>Widih Bisuduren</h4>
+                <h3> Viewer 1.000.000.000.000</h3>
+            </div>
+            <hr>
+        </div>
+        <div class="search-bar">
+            <div style="margin-left: 145px;">
+                <div id="hm" class="search">
+                    <form action="#">
+                        <input type="text" placeholder=" Search ...." name="search">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="liverecommen">
+            <div class="live-card">
+                <img class="hm" src="1.png" alt="" id="masked2">
+                <br>
+                <h2>SEPELE gambar 24 jam</h2>
+                <h4>Robert Jeferson</h4>
+                <h3> Viewer -10</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="2.jpg" alt="" id="masked2">
+                <br>
+                <h2>Drawing for my viewer</h2>
+                <h4>Widih Bisuduren</h4>
+                <h3> Viewer 1.0</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="3.jpeg" alt="" id="masked2">
+                <br>
+                <h2>Cozy draw with me</h2>
+                <h4>Varen</h4>
+                <h3> Viewer 2.341</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="4.jpeg" alt="" id="masked2">
+                <br>
+                <h2>Ngambar di kertas</h2>
+                <h4>hose mekel</h4>
+                <h3> Viewer 1.000.069</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="5.jpeg" alt="" id="masked2">
+                <br>
+                <h2>Drawing</h2>
+                <h4>Pidipil</h4>
+                <h3> Viewer 1.000.340.000</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="6.jpeg" alt="" id="masked2">
+                <br>
+                <h2>m3nG4Mb4r</h2>
+                <h4>Josua Ale</h4>
+                <h3> Viewer 1.329</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="7.jpeg" alt="" id="masked2">
+                <br>
+                <h2>Chill Drawing</h2>
+                <h4>Proki</h4>
+                <h3> Viewer 4.000</h3>
+            </div>
+            <div class="live-card">
+                <img class="hm" src="bg1.jpg" alt="" id="masked2">
+                <br>
+                <h2>LandScape draw</h2>
+                <h4>God</h4>
+                <h3> Viewer 1.000.000.000.000.000.000.000.000.000.000.000.000.000.000</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="recommended">
+        <h1>Recommended channel</h1>
+        <br>
+        <h4><img class="pp" src="Pewdiepie.jpg" alt="pp">Pidipil</h4>
+        <h5> Drawing stick</h5>
+        <h3> Viewer 2.064</h3>
+        <br>
+        <h4><img class="pp" src="Baal.jpeg" alt="pp">Baal</h4>
+        <h5> Drawing Genshin Impact</h5>
+        <h3> Viewer 140</h3>
+        <br>
+        <h4><img class="pp" src="steve.jpg" alt="pp">Alex</h4>
+        <h5> Drawing diamond</h5>
+        <h3> Viewer 2.258</h3>
+        <br>
+        <h4><img class="pp" src="Steve.jpeg" alt="pp">Harvey</h4>
+        <h5> Drawing Pixel Art</h5>
+        <h3> Viewer 300</h3>
+        <br>
+        <h4><img class="pp" src="Kanye.jpeg" alt="pp">Kanye</h4>
+        <h5> Drawing momma</h5>
+        <h3> Viewer 5.020</h3>
+        <br>
+        <h4><img class="pp" src="Robert.png" alt="pp">Robert Sugianto</h4>
+        <h5> Drawing my future</h5>
+        <h3> Viewer -5.841</h3>
+        <br>
+        <h4><img class="pp" src="Snoop.jpeg" alt="pp">Dawg Snup</h4>
+        <h5> Drawing Marijuana</h5>
+        <h3> Viewer 632</h3>
+        <br>
+        <h4><img class="pp" src="pria ganteng.jpg" alt="pp">Chad</h4>
+        <h5> Drawing muscle</h5>
+        <h3> Viewer 9.876.523.456.772.365.4673</h3>
+        <br>
+        <h4><img class="pp" src="joe.jpeg" alt="pp">Joe mama</h4>
+        <h5> Drawing America</h5>
+        <h3> Viewer 1.000.000</h3>
+        <br>
+        <h4><img class="pp" src="Trump.jpeg" alt="pp">Trump king</h4>
+        <h5> Drawing Greater America</h5>
+        <h3> Viewer 10</h3>
+        <br>
+        <h4><img class="pp" src="windah.jpg" alt="pp">Widih Bisuduren</h4>
+        <h5> Drawing lingkaran ncs</h5>
+        <h3> Viewer 2.200</h3>
+        <br>
+
+    </div>
+
+
+
+    <!-- End News -->
+    <script src="jquery/jquery-migrate-1.4.1.min.js"></script>
+    <script src="popper/popper.min.js"></script>
+    <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

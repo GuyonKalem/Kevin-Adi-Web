@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,300&family=Noto+Serif&family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet');
+
+h2 {
+  padding-left: 15px;
+}
+
+.navbar {
+  width: 100%;
+  height: 5%;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: #1100ff;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 18px;
+  margin-top: 5px
+}
+
+.menu {
+  float: left;
+  width: 500px;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: #1100ff;
+}
+
+.search {
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+}
+
+.srch {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #1100ff;
+  margin-top: 13px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background: #1100ff;
+  border: 2px solid#1100ff;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #000;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.srch:focus {
+  outline: none;
+}
+
+
+
+.custom-welcome-box {
+  float: left;
+  margin-top: 92px;
+  margin-left: 85px;
+  width: 580px;
+  padding: 0px;
+}
+
+#logoname {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.custom-banner {
+  width: 100%;
+  height: calc(100vh - 68.76px);
+}
+
+.custom-news {
+  margin-top: 45px;
+  margin-left: 150px;
+}
+
+#custom-title {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 900;
+  font-size: 28px;
+  color: #F3F3F3;
+}
+
+#custom-title2 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 900;
+  font-size: 52px;
+  color: #1100ff;
+}
+
+#custom-userfont {
+  font-family: 'Noto Serif', serif !important;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5%;
+  color: #F3F3F3;
+}
+
+#custom-descnomar {
+  font-family: 'Noto Serif', serif !important;
+  font-size: 16px;
+  color: #F3F3F3;
+}
+
+#custom-desc {
+  font-family: 'Noto Serif', serif !important;
+  font-size: 16px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #F3F3F3;
+}
+
+#custom-selecteddesc {
+  font-family: 'Noto Serif', serif !important;
+  font-size: 16px;
+  margin-left: 6.5%;
+  margin-right: 6.5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: rgb(17, 0, 255);
+}
+
+#custom-descselec {
+  font-family: 'Noto Serif', serif !important;
+  font-size: 16px;
+  margin: 5%;
+  color: #F3F3F3;
+}
+
+#custom-margin {
+  margin-left: 135px;
+}
+
+.custom-gallery {
+  position: relative;
+  color: #F3F3F3;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 145px;
+  margin-right: 500px;
+}
+
+
+#masked {
+  opacity: 45%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 245px;
+  height: 335px;
+  -webkit-mask-box-image: url(box.jpg) 25;
+}
+
+.custom-selection {
+  display: flex;
+  margin-left: 125px;
+  margin-right: 500px;
+}
+
+.custom-showcase {
+  display: flex;
+  margin-left: 120px;
+}
+
+.custom-formbox {
+  float: left;
+  width: 600px;
+  z-index: 4;
+  background-color: rgb(13, 13, 13);
+  padding: 50px;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+
+
+
+/* css welcome */
+/*Login*/
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(17, 0, 255);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 8px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}
+
+/*Register*/
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 20px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: rgb(17, 0, 255);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.overflow {
+  color: #000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+
+
